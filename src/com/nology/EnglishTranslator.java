@@ -36,7 +36,7 @@ public class EnglishTranslator {
         englishAlphabet.put("x", "-..-");
         englishAlphabet.put("y", "-.--");
         englishAlphabet.put("z", "--..");
-        englishAlphabet.put(" ", " ");
+        englishAlphabet.put(" ", "/");
 
         for ( String element : arrayInput ) {
             translatedWord.add(englishAlphabet.get(element));
