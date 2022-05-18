@@ -1,10 +1,11 @@
 package com.nology;
 
-import static com.nology.MorseTranslator.main1;
+import static com.nology.MorseTranslator.translateMorse;
 
 public class Main {
 
     public static void main(String[] args) {
-	main1();
+
+        System.out.println(translateMorse(".... . .-.. .-.. --- / .-- --- .-. .-.. -.."));
     }
 }
