@@ -46,12 +46,4 @@ public class MorseTranslator {
         }
         return translatedWord.stream().map(Object::toString).collect(Collectors.joining(""));
     }
-
-
-//    morseAlphabet.contains(translateThis);
-// 1) input word
-// 2) breakdown inputted word into letters
-// 3) search hashmap for individual letters
-// 4) return letters (key or pair)
-// 5) return word in total
 }
